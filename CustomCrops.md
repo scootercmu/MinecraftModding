@@ -14,7 +14,7 @@ As we create a custom crop we will define several new files supporting the block
 ## Creating CustomFood.java
 To begin navigate to the **java>com.idtech>item** folder and create a file titled **CustomFood.java**.
 
-This file will ``` extend Item ``` which will need to be put after the class declaration ```public class CustomFood```.
+This file ``` extends Item ``` which will need to be put after the class declaration ```public class CustomFood```.
 
 Now lets create our constructor and put it into our class.
 ```java
@@ -63,7 +63,7 @@ And with these four lines of code we have added our own custom effect to our foo
 ## Creating CustomFoodPlantBlock.java
 To begin go ahead and create a new file in the **java>com.idtech>block** folder titled **CustomFoodPlantBlock.java**.
 
-This file will ```extend CropBlock``` so add that after the ```public class CustomFoodPlantBlock```.
+This file ```extends CropBlock``` so add that after the ```public class CustomFoodPlantBlock```.
 
 Next we will put in the constructor into the file, so place it inside the curly brackets.
 ```java
@@ -132,7 +132,7 @@ event.getRegistry().register(CustomFoodPlantBlock.INSTANCE);
 
 Now we will move over to our **java>com.idtech>item** folder and create a java class titled **CustomFoodSeedsItem.java**. 
 
-This file will ```extend CropBlock``` so add that after the ```public class CustomFoodPlantBlock```
+This file ```extends ItemNameBlockItem``` so add that after the ```public class CustomFoodPlantBlock```
 
 Next we will put in the constructor into the file, so place it inside the curly brackets.
 ```java
