@@ -177,7 +177,7 @@ The number of lines you need in this file will depend on the MAX_AGE you set in 
 ### Model JSONs
 Normally we haven't had to make these JSONs for blocks thanks to iDtech's scripts that we have been using to generate them. But since we are creating a crop there are factors that the script does not account for.
 
-1. To begin you will want to navigate to the **resources>assets.examplemod>block** folder.
+1. To begin you will want to navigate to the **resources>assets.examplemod>models>block** folder.
 2. And just like with the blockstate JSON find the **castlewall.json**, copy it, and  paste it with the name **customfood_stage0.json**.
 3. Now that the file has been created delete the old contents of it and paste the following code.
 ```json
@@ -196,7 +196,7 @@ Normally we haven't had to make these JSONs for blocks thanks to iDtech's script
 ## Loot Table JSON
 
 Lastly we need to define the drops for destroying our crop at different stages.
-1. You will want to navigate to **resources>data>loot_tables.blocks** folder.
+1. You will want to navigate to **resources>data>examplemod>loot_tables.blocks** folder.
 2. Again you will make a copy of **castlewall.json** and this one will be named **customfoodplant.json**.
 3. Lastly replace the contents of the JSON file with the following code.
 ```json
