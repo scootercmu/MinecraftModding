@@ -32,7 +32,7 @@ Feel free to change around the values inside the parentheses following *nutritio
 
 Wrapping up inside **CustomFood.java** we will create an Instance of our food Item by placing the following below our properties and above our constructor.
 ```java
-public static Item INSTANCE = new TeleportApple(properties).setRegistryName("teleportapple");
+public static Item INSTANCE = new CustomFood(properties).setRegistryName("customfood");
 ```
 
 #### Challenge: **Custom Effects**
