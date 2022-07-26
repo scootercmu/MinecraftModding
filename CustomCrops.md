@@ -294,3 +294,5 @@ If you have multiple different block that need to be transparent you will just i
 
 ### Fin
 And with that your custom crop is complete and should be rendered properly!
+
+> Written with [StackEdit](https://stackedit.io/).
