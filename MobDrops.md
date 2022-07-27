@@ -13,4 +13,5 @@ public ResourceLocation getDefaultLootTable(){
 ```
 With these lines of code our entity will provide its corresponding loot table to Minecraft and drop our items properly.
 
+----
 > Written with [StackEdit](https://stackedit.io/).
