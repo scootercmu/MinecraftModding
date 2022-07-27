@@ -18,7 +18,7 @@ public ModTab(String label){
 }
 ```
 
-Our next step is to create an Instance of our class. We will put this above our constructor and feel free to change the name inside the quotations from *"examplemod"*.
+Our next step is to create an Instance of our class. We will put this above our constructor and feel free to change the name inside the quotations from *"examplemod"* to anything with registry name convention.
 
 ```java
 public static CreativeModeTab INSTANCE = new ModTab("examplemod");
