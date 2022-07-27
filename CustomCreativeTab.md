@@ -62,4 +62,5 @@ The *examplemod* will need to correspond to the name inside your ModTab Instance
 ## Fin
 And with that your custom creative mode tab is complete and will show up in game.
 
+----
 > Written with [StackEdit](https://stackedit.io/).
