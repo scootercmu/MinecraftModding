@@ -35,6 +35,8 @@ Wrapping up inside **CustomFood.java** we will create an Instance of our food It
 public static Item INSTANCE = new CustomFood(properties).setRegistryName("customfood");
 ```
 
+Finally you will need to register your CustomFood inside your **ItemMod.java** file.
+
 #### Challenge: **Custom Effects**
 With your food created as its own class we can add extra effects like summoning a mob, placing a block, or teleporting the player into the sky. For simplicities sake we will be doing the last one, but the sky is the limit when it comes to what you can code into here.
 
