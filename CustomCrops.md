@@ -82,7 +82,7 @@ private  static  final  VoxelShape[] SHAPE_BY_AGE = new  VoxelShape[]{Block.box(
 ```
 2. Below the age variables but above the constructor, create a Properties object. The line below uses the properties of Beetroots other options are available as well.
 ```java
-private  static  Properties  properties = BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission();
+private  static  Properties  properties = BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission().randomTicks();
 ```
 3. Last we will create an Instance of our Block below the properties.
 ```java
