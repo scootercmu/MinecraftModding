@@ -168,7 +168,7 @@ The blockstate JSON will be what informs the game of different stages of our cus
       "age=0": {"model": "examplemod:block/customfood_stage0"},  
 	  "age=1": {"model": "examplemod:block/customfood_stage1"},  
 	  "age=2": {"model": "examplemod:block/customfood_stage2"},  
-	  "age=3": {"model": "examplemod:block/cusutomfood_stage3"}  
+	  "age=3": {"model": "examplemod:block/customfood_stage3"}  
    }  
 }
 ```
